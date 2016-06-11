@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>CIR Amrita</title>
+<title>HOME</title>
 <link href="{% static 'css/bootstrap.css' %}" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{% static 'js/jquery.min.js' %}"></script>
@@ -45,16 +45,14 @@
 	    		});
 			});
 		</script>
-		<!----//End-top-nav-script---->
-</script>
-</head>
-<body>
+</head><!----//End-top-nav-script---->
 {% block navbar %}
 	{% include 'static/navbar_top.html' %}
 {% endblock navbar %}
 {% block body %}
-
+<body style="background-image: url( {% static 'krishna1.jpg' %})">
+</body>
 {% endblock body %}
 {% include 'static/fixed_footer.html' %}
-</body>
+
 </html>
